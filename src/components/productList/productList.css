@@ -21,3 +21,14 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 480px) {
+  .productList {
+    padding: 10px;
+  }
+  .pl-texts {
+    width: 100%;
+  }
+  .pl-desc {
+    display: none;
+  }
+}
